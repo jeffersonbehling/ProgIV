@@ -8,6 +8,10 @@
         <servlet-name>Pagina2</servlet-name>
         <servlet-class>Pagina2</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>FecharSessao</servlet-name>
+        <servlet-class>FecharSessao</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>Pagina1</servlet-name>
         <url-pattern>/Pagina1</url-pattern>
@@ -15,6 +19,10 @@
     <servlet-mapping>
         <servlet-name>Pagina2</servlet-name>
         <url-pattern>/Pagina2</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>FecharSessao</servlet-name>
+        <url-pattern>/FecharSessao</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
